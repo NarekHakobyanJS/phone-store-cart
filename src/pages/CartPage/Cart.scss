@@ -1,0 +1,30 @@
+.cart{
+    width: 100%;
+    border : 1px solid black;
+    padding: 15px;
+    margin-bottom: 15px;
+    h3{
+        text-align: center;
+    }
+    .cart-description{
+        display : flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 110px;
+        }
+        .cart-count{
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+            button{
+                margin: 0 15px;
+                font-size: 22px;
+                border: none;
+                background: transparent;
+                cursor: pointer;
+                font-weight: 700;
+            }
+        }
+    }
+}

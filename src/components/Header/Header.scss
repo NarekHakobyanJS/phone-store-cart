@@ -1,0 +1,23 @@
+.header{
+    display : flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 0 15px;
+    border-bottom: 1px solid cyan;
+    position: sticky;
+    top : 0;
+    .header-logo{
+        img {
+            width: 100px;
+        }
+    }
+    .header-bag{
+        text-decoration: none;
+        color: black;
+        svg{
+            font-size: 28px;
+        }
+    }
+}
