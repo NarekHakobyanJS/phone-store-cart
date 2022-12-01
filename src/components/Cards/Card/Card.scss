@@ -8,6 +8,11 @@
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.21);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.21);
     margin-bottom: 15px;
+    a{
+        color: black;
+        cursor: pointer;
+        text-decoration: none;
+    }
     img {
         width: 100%;
     }
@@ -25,6 +30,11 @@
         svg{
             font-size: 28px;
             cursor: pointer;
+        }
+        .clikced{
+            font-size: 28px;
+            cursor: pointer;
+            color: greenyellow;
         }
     }
 }

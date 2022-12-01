@@ -1,0 +1,18 @@
+.mobile-page-description{
+    margin: 30px;
+    h1{
+        text-align: center;
+    }
+    .mobile-page-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .mobile-page-desc{
+            width: 520px;
+            p{
+                font-size: 24px;
+                font-weight: 500;
+            }
+        }
+    }
+}

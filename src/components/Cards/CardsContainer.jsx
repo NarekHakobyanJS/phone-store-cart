@@ -1,6 +1,7 @@
 import { connect } from "react-redux";
 import Cards from "./Cards";
 import {setBagItemAC} from "../../redux/bagReducer"
+import {sendPageAC} from "../../redux/pageReducer"
 
 let mapStateToProps = (state) => {
     return {
@@ -13,6 +14,9 @@ let mapDispatchToProps = (dispatch) => {
         setBagItem : (item) => {
             dispatch(setBagItemAC(item))
         },
+        sendPage : (item) => {
+            dispatch(sendPageAC(item))
+        }
     }
 }
 

@@ -1,3 +1,14 @@
 .home{
     margin-top: 25px;
+    .scroll-top{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 50px;
+        color: gold;
+        cursor: pointer;
+    }
+    .show-btn{
+        opacity: 0;
+    }
 }
